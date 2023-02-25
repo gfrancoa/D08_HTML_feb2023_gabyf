@@ -1,37 +1,117 @@
 <!DOCTYPE html>
 <html lang="en-CA">
   <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="the best sushi in place">
-    <meta name="author" content="Gabriela Franco">
+    <meta charset="UTF-8" />
+    <meta name="description" content="the best sushi in place" />
+    <meta name="author" content="Gabriela Franco" />
     <!-- only for private pages we dont want to be listed in search results -->
     <!-- <meta name="robots" content="no index, no follow"> -->
     <!-- for responsiveness -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- favicon -->
-    <link rel="icon" href="https://brookmanps.wa.edu.au/wp-content/uploads/2020/03/Connect-high-res-250x250.png" type="image/jpeg">
+    <link
+      rel="icon"
+      href="https://brookmanps.wa.edu.au/wp-content/uploads/2020/03/Connect-high-res-250x250.png"
+      type="image/jpeg"
+    />
     <title>Example 1: Simple HTML</title>
     <style>
-        html{
-            background-color: darkkhaki ;
-            font-family: Arial, Helvetica, sans-serif;
-            /* to apply styles to the whole document */
-        }
-        h1{
-            color: white;
-            background-color: olive;
-        }
+      html {
+        background-color: darkkhaki;
+        font-family: Arial, Helvetica, sans-serif;
+        /* to apply styles to the whole document */
+      }
+      h1 {
+        color: white;
+        background-color: olive;
+      }
+
+      header {
+        background-color: blue;
+        color: white;
+      }
+      nav {
+        background-color: aqua;
+      }
+      footer {
+        background-color: black;
+        color: rgb(202, 196, 196);
+      }
+      div{
+        width: 200px;
+        height: 400px;
+        background-color: grey;
+        margin: auto;
+      }
+      img{
+        max-width: 50%;
+        display: block;
+        margin: auto;
+      }
+      /* span{
+        color:chartreuse
+      } */
     </style>
   </head>
   <body>
-    <h1>Hello this is my webpage or whatever</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab vel corporis,
-      odio molestiae, mollitia incidunt magni culpa omnis dolorum tempore rerum
-      nihil sapiente exercitationem iste quisquam! Cum officiis hic suscipit
-      ipsa quaerat explicabo quos reprehenderit facere? Ex asperiores ut
-      quibusdam deleniti, rerum consequuntur cum hic laudantium, itaque delectus
-      tempore minima.
-    </p>
+
+    <header>The Sushi Place</header>
+    <nav>Home Menu About Us Reservation</nav>
+    <main>
+      <section>
+        <h1>1. Section 1</h1>
+        <h2>1.1. Subsection 1</h2>
+        <h2>1.2. Subsection 2</h2>
+        <h3>1.2.1 Sub-subsection 1</h2>
+        <hr>
+        <h1>Hello this is my webpage or whatever</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab vel
+          corporis, odio molestiae, &nbsp;&nbsp;&nbsp;&nbsp; mollitia incidunt magni culpa omnis dolorum
+          tempore rerum nihil sapiente <span style="color: greenyellow;">exercitationem iste quisquam! Cum
+            officiis hic suscipit ipsa quaerat explicabo</span>  quos reprehenderit
+          facere? Ex asperiores ut quibusdam deleniti, rerum consequuntur cum
+          hic laudantium, itaque delectus tempore minima.
+        </p>
+        <div>
+          This is a Sushi
+          <hr>  
+          <b>Bold</b>
+          <i>Italic</i>
+          <b><i>Bold and italic</i></b>
+          <u>underline</u>
+          <small>small</small>
+          <hr>
+          X <sub>3</sub> Y <sup>2</sup>
+          <mark>HIGHLIGHTED</mark>
+          <del>scratched out</del>
+          <ins>Inserted text</ins>
+          <br>
+          <abbr title="">asap</abbr>
+          <cite>This is a cite</cite>
+          <address>This is an address</address>
+          <q>Short quotation</q>
+          <blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing.</blockquote>
+
+          <!-- write the sentence I love you in bold, italic, underline -->
+          <b>I love you</b>
+          <i>I love you</i>
+          <u>I love you</u>
+          <b><i><u>I love you</u></i></b>
+          
+        </div>
+        <img title="Happy" src="https://cdn.lifehack.org/wp-content/uploads/2015/02/what-makes-people-happy.jpeg" alt="Happy person holding a hat">
+       
+        <figure >
+          <img title="Happy" src="https://cdn.lifehack.org/wp-content/uploads/2015/02/what-makes-people-happy.jpeg" alt="Happy person holding a hat">
+          <figcaption>The text after the image</figcaption>
+        </figure>
+        
+      </section>
+    </main>
+
+    <footer>
+      The sushi Place  &copy;  123 St Laurent Boulevard, Montreal, QC, Canada &reg; &#9743;
+    </footer>
   </body>
 </html>
