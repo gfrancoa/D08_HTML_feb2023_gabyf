@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="author" content="Gabriela Franco" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link
+      rel="icon"
+      href="https://brookmanps.wa.edu.au/wp-content/uploads/2020/03/Connect-high-res-250x250.png"
+      type="image/jpeg"
+    />
+    <title>Exercise 4.1</title>
+    <style>
+      form {
+        width: 320px;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Exercise 4.1</header>
+
+    <main>
+      <section>
+        <form action="form_reply.html" method="POST">
+          <h3>Create/Update your account</h3>
+          <fieldset>
+            <legend>Contact Information</legend>
+            <div>
+              <input
+                type="text"
+                id="name"
+                placeholder="Firstname & Lastname"
+                required
+                maxlength="50"
+              />
+              <span>*</span>
+            </div>
+
+            <div>
+              <label for="address">Street Address, Apt no.</label>
+              <textarea
+                id="address"
+                cols="30"
+                rows="3"
+                placeholder="Enter you address"
+                required
+                maxlength="255"
+              ></textarea>
+              <span>*</span>
+            </div>
+
+            <div>
+              <label for="city">City</label>
+              <div>
+                <input type="text" id="city" required maxlength="50" />
+                <span>*</span>
+              </div>
+            </div>
+
+            <div>
+              <label for="provstate">Province/State</label>
+              <div>
+                <input type="text" id="provstate" required maxlength="20" />
+                <span>*</span>
+              </div>
+            </div>
+
+            <div>
+              <label for="country">Country</label>
+              <div>
+                <select name="" id="country" required>
+                  <option hidden disabled selected value>
+                    -- Select one --
+                  </option>
+                  <option value="1">Canada</option>
+                  <option value="2">USA</option>
+                </select>
+                <span>*</span>
+              </div>
+            </div>
+
+            <div>
+              <label for="postalzip">Province/State</label>
+              <div>
+                <input
+                  type="text"
+                  id="postalzip"
+                  required
+                  maxlength="7"
+                  placeholder="ex. A1B-2C3"
+                />
+                <span>*</span>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Preferred language</legend>
+            <div>
+              <label>
+                <input type="radio" name="lang" value="en" />
+                English
+              </label>
+            </div>
+            <div>
+              <label>
+                <input type="radio" name="lang" value="fr" />
+                French
+              </label>
+            </div>
+            <div>
+              <label>
+                <input type="radio" name="lang" value="other" />Other
+              </label>
+              <input type="text" name="other" maxlength="20" />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Login Information</legend>
+            <div>
+              <input
+                type="email"
+                id="email"
+                placeholder="Email"
+                required
+                maxlength="128"
+              />
+              <span>*</span>
+            </div>
+
+            <div>
+              <input
+                type="password"
+                id="pass"
+                placeholder="password - max 8 char"
+                required
+                maxlength="8"
+              />
+              <span>*</span>
+            </div>
+            <div>
+              <input
+                type="password"
+                id="pass2"
+                placeholder="repeat password"
+                required
+                maxlength="8"
+              />
+              <span>*</span>
+            </div>
+          </fieldset>
+
+          <div>
+            <div>
+              <input
+                id="spam"
+                type="checkbox"
+                value="1"
+              />
+              <label for="spam"> I agree to receive info about new products</label>
+            </div>
+            <div>
+              <input
+                id="rules"
+                type="checkbox"
+                value="1"
+                required
+              />
+              <label for="rules"> I agree to comply with the company rules</label>
+            </div>
+          </div>
+
+          <input type="submit" value="Continue">
+        </form>
+      </section>
+    </main>
+    <footer>Gabriela Franco - 2023</footer>
+  </body>
+</html>
