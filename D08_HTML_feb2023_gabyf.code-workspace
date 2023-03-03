@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../D08_HTML_TEMPLATE_ETUDIANTS"
 		}
 	],
 	"settings": {}
