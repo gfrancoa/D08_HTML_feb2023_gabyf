@@ -1,0 +1,29 @@
+h1{
+    background-color: red;
+    color: white;
+    border-top:10px solid green;
+    text-align: center;
+}
+
+body{
+    margin-top: 20px;
+    background-color:#D3D3D3;
+}
+
+#summary{
+    background-color: white;
+    border: 5px solid green;
+    width: 50%;
+}
+
+#first-p{
+    font-style: italic;
+    width: 80%;
+}
+
+h2{
+    border-top: 1px solid red;
+    border-left: 2px solid red;
+    width: 30%;
+    background-color: white;
+}

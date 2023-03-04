@@ -1,0 +1,33 @@
+html{
+    max-width: 1280px;
+    font-size: 17px;
+    background-color: rgb(231, 200, 243);
+    font-family: Arial;
+    line-height: 1.4;
+  }
+  body{
+    margin:0px;
+  }
+  header{
+    background-color: blue;
+    color: white;
+    padding:20px
+  }
+  nav,footer{
+    background-color: black;
+    color:grey;
+    padding:10px;
+  }
+  .grey_square_200{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    margin: auto;
+  }
+  table,th,td{
+    border: 1px solid black;
+  }
+  .round_corners{
+    border-radius: 8px;
+    border: 2px solid black;
+  }

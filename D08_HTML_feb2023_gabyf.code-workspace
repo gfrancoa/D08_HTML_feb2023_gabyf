@@ -7,5 +7,7 @@
 			"path": "../D08_HTML_TEMPLATE_ETUDIANTS"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "D08_HTML_feb2023_gabyf"
+	}
 }

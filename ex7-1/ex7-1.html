@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 7-1 First CSS</title>
+    <link rel="stylesheet" href="css/first-css.css">
+</head>
+<body>
+
+    <h1>Extensible HyperText Markup Language</h1>
+    <div id="summary">
+
+        <h4>Summary</h4>
+
+        <ol>
+            <li>Motivation</li>
+            <li>Relationship to HTML</li>
+            <li>Modularization of XHTML</li>
+            <li>Further developments</li>
+            <li>
+                Valid XHTML documents
+                <ol>
+                    <li>XML declaration</li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+
+    <p id="first-p">
+        Extensible Hypertext Markup Language (XHTML) is part of the family
+        of XML markup languages. It mirrors or extends versions of the widely used
+        Hypertext Markup Language (HTML), the language in which Web pages are formulated.
+        While HTML, prior to HTML5, was defined as an application of Standard Generalized
+        Markup Language (SGML), a flexible markup language framework, XHTML is an application
+        of XML, a more restrictive subset of SGML. XHTML 1.0 became a World Wide Web Consortium
+        (W3C) Recommendation on January 26, 2000. XHTML 1.1 became a W3C Recommendation on May
+        31, 2001. The standard known as XHTML5 is being developed as an XML adaptation of the
+        HTML5 specification.
+    </p>
+
+    <h2>Motivation</h2>
+
+    <p>
+        XHTML was developed to make HTML more extensible and increase interoperability with other
+        data formats. In addition, browsers were forgiving of errors in HTML, and most websites
+        were displayed despite technical errors in the markup; XHTML introduced stricter error
+        handling. HTML 4 was ostensibly an application of Standard Generalized Markup Language
+        (SGML); however the specification for SGML was complex, and neither web browsers nor the
+        HTML 4 Recommendation were fully conformant to it. The XML standard, approved in 1998,
+        provided a simpler data format closer in simplicity to HTML 4.
+    </p>
+
+    <h2>Relationship to HTML</h2>
+
+    <p>
+        There are various differences between XHTML and HTML. The Document Object Model (DOM) is
+        a tree structure that represents the page internally in applications, and XHTML and HTML
+        are two different ways of representing that in markup. Both are less expressive than the
+        DOM, and generally XHTML's XML syntax is more expressive than HTML. Because the expressible
+        contents of the DOM in syntax are slightly different, there are some changes in actual
+        behavior between the two models. First, there are some differences in syntax, and aside
+        from these,  there are some behavioral differences, mostly arising from the underlying
+        differences in serialization.
+    </p>
+
+    <h2>Modularization of XHTML</h2>
+
+    <p>
+        Modularization provides an abstract collection of components through which XHTML can be
+        subsetted and extended. The following evolutions divide the XHTML language into modules,
+        each one grouping together one type of functionalities. This division is designed to
+        permit extending the format, or inversely, to extract sub-ensembles adapted to specific
+        contexts.
+    </p>
+
+    <ul>
+        <li>
+            XHTML 1.1: The modules combined within XHTML 1.1 effectively recreate XHTML 1.0 Strict,
+            with the addition of ruby annotation elements (ruby, rbc, rtc, rb, rt and rp) to better
+            support East-Asian languages.
+        </li>
+        <li>
+            XHTML BASIC: Since information appliances may lack the system resources to implement
+            all XHTML abstract modules, the W3C defined a feature-limited XHTML specification
+            called XHTML Basic. It provides a minimal feature subset sufficient for the most
+            common content-authoring.
+        </li>
+    </ul>
+
+    <h2>Further developments</h2>
+
+    <p>
+        XHTML 2.0: Between August 2002 and July 2006, the W3C released eight Working Drafts of
+        XHTML 2.0, a new version of XHTML able to make a clean break from the past by discarding
+        the requirement of backward compatibility, notably due to the introduction of XForms and
+        XFrames.
+    </p>
+
+    <p>
+        A ninth draft of XHTML 2.0 was expected to appear in 2009, but on July 2, 2009, the W3C
+        officially announced the abandonment of the development of XHTML 2 in order to dedicate
+        themselves entirely to its new successor: HTML5.
+    </p>
+
+    <h2>Valid XHTML documents</h2>
+
+    <p>
+        For a document to be valid XHMTL, it must have a Document Type Declaration (DOCTYPE) and
+        a character encoding conforming to the specification of W3C.
+    </p>
+
+    <h2>XML declaration</h2>
+    <p>
+        A character encoding may be specified at the beginning of an XHTML document in the XML
+        declaration when the document is served using the application/xhtml+xml MIME type.
+        (If an XML document lacks encoding specification, an XML parser assumes that the encoding
+        is UTF-8 or UTF-16, unless the encoding has already been determined by a higher protocol.)
+        The declaration may be optionally omitted because it declares as its encoding the default
+        encoding. However, if the document instead makes use of XML 1.1 or another character
+        encoding, a declaration is necessary.
+    </p>
+
+</body>
+</html>
