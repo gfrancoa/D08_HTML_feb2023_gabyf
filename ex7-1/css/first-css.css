@@ -6,7 +6,6 @@ h1{
 }
 
 body{
-    margin-top: 20px;
     background-color:#D3D3D3;
 }
 
@@ -26,4 +25,8 @@ h2{
     border-left: 2px solid red;
     width: 30%;
     background-color: white;
+}
+
+p{
+    text-align: justify;
 }
