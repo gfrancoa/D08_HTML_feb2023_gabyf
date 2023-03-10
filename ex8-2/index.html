@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Exercise 8.2 poster">
+    <meta name="author" content="Gabriela Franco">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MMFA - Poster</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        .container{
+        div.poster{
             background-color: orange;
             border-radius: 4%;
             text-align: center;
@@ -15,7 +17,7 @@
 
         }
 
-        img{
+        div.poster img{
             margin-top: 5%;
             background-color: khaki;
             border: 2px solid black;
@@ -23,20 +25,21 @@
             width: 70%;
         }
 
-        h1{
+        div.poster .poster-title{
             color: darkred;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 4vw;
+            font-weight: bold;
         }
 
-        h3{
+        div.poster .poster-subtitle{
             color: teal;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 3vw;
             margin-bottom: 8%;
         }
 
-        p{
+        div.poster .address{
             font-family:'Courier New', Courier, monospace;
             padding-bottom: 10%;
             font-size: 2vw;
@@ -44,11 +47,11 @@
     </style>
 </head>
 <body>
-   <div class="container">
+   <div class="poster">
     <img src="some_image.jpg" alt="">
-    <h1>Montreal Museum of Fine Arts</h1>
-    <h3>June 21 to September 15 2019</h3>
-    <p>1380 Sherbrooke St W, Montreal</p>
+    <p class="poster-title">Montreal Museum of Fine Arts</h1>
+    <p class="poster-subtitle">June 21 to September 15 2019</h3>
+    <p class="address">1380 Sherbrooke St W, Montreal</p>
    </div>
 </body>
 </html>
