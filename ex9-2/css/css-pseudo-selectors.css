@@ -1,0 +1,17 @@
+a{
+    background-color: yellow;
+}
+
+a:hover{
+    color:white;
+    background-color: blue;
+}
+
+p:target{
+    background-color: rgb(218, 216, 216);
+    border: 2px solid grey;
+}
+
+div#collection p:nth-child(4) {
+    background: blue;
+  }
