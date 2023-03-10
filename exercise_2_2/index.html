@@ -7,33 +7,62 @@
     <title>Laptops.com - Great Deals on Laptops</title>
     <link rel="icon" href="icons/favicon.png" type="image/jpeg" />
     <style>
-      header{
-        background-color: #4C88B8;
+      html{
+        font-family: Arial, Helvetica, sans-serif;
       }
-      .header-img{
+      header {
+        background-color: #4c88b8;
+      }
+      .header-img {
         width: 70px;
       }
-      .header-title{
+      .header-title {
         display: inline;
         color: white;
         font-weight: 400;
         font-size: 30px;
       }
-      nav,footer{
-        background-color: #E2E2E2;
+      nav,
+      footer {
+        background-color: #e2e2e2;
       }
-      .icon{
+      nav ul li{
+        display: inline-block;
+        padding: 10px;
+        width: 120px;
+        text-align: center;
+        background-color: black;
+      }
+      nav ul li:hover{
+        background-color: green;
+      }
+      .icon {
         width: 20px;
       }
-      .home-title{
+      .home-title {
         display: inline;
       }
-      .home-container{
+      .home-container {
         margin-top: 20px;
         margin-bottom: 20px;
       }
-      .footer-text{
+      .footer-text {
         margin-top: 0;
+      }
+      a:link {
+        text-decoration: none;
+        color: white;
+      }
+      a:visited {
+        text-decoration: none;
+        color: white;
+      }
+      a:active {
+        text-decoration: none;
+        color: yellow;
+      }
+      a:hover {
+        font-weight: bold;
       }
     </style>
   </head>
@@ -44,20 +73,45 @@
       </a>
       <h1 class="header-title">Laptops.com - Great deals on Laptops</h1>
     </header>
+
     <nav>
-      <a href="index.html">
-        <img class="icon" src="icons/home.png" alt="home icon" title="Click for going home" >
-        Home
-      </a>
-      <a href="products/products.html">
-        <img class="icon" src="icons/cart.png" alt="cart icon" title="Click to view product catalog" >
-        Products
-      </a>
-      <a href="contact/contact.html">
-        <img class="icon" src="icons/mail.png" alt="email icon" title="Click for going to contact section" >
-        Contact
-      </a>
+      <ul>
+        <li>
+          <a href="index.html">
+            <img
+              class="icon"
+              src="icons/home.png"
+              alt="home icon"
+              title="Click for going home"
+            />
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="products/products.html">
+            <img
+              class="icon"
+              src="icons/cart.png"
+              alt="cart icon"
+              title="Click to view product catalog"
+            />
+            Products
+          </a>
+        </li>
+        <li>
+          <a href="contact/contact.html">
+            <img
+              class="icon"
+              src="icons/mail.png"
+              alt="email icon"
+              title="Click for going to contact section"
+            />
+            Contact
+          </a>
+        </li>
+      </ul>
     </nav>
+
     <main>
       <section>
         <div class="home-container">
