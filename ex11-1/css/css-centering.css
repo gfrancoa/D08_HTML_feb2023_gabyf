@@ -1,0 +1,40 @@
+.text_centered,.block_centered,.all_centered{
+    width: 700px;
+    background-color: yellow;
+}
+.text_centered, .all_centered{
+    text-align: center;
+}
+body .block_centered,body .all_centered,.all_centered .blue-div, body p{
+    margin: auto;
+}
+.blue-div{
+    background-color: blue;
+    width: 350px;
+    color: white;
+}
+body>p{
+    width: 70%;
+    margin-top: 2%;
+}
+.v_centered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: red;
+    height: 200px;
+    width: 150px;
+}
+.v_centered_2{
+    background-color: blue;
+    color: white;
+    width: 700px;
+    height: 100px;
+    text-align: center;
+}
+
+.v_centered_2 p{
+    display: table-cell;
+    height: 100px;
+    vertical-align: middle;
+}
