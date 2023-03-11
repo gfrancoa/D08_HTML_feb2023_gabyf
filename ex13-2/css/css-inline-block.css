@@ -1,0 +1,23 @@
+body,ul{
+    margin:0;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    padding:10px;
+}
+
+a:hover{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+} 
+
+nav ul li{
+    border: 1px solid grey;
+    display:inline-block;
+    width: 90px;
+    
+}
+
