@@ -1,0 +1,26 @@
+#container{
+    position:relative;
+}
+
+#pos_absolute{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 50%;
+}
+
+#pos_fixed{
+    position: absolute;
+    bottom: 0;
+    right:0;
+}
+
+#pos_static{
+    position:static;
+}
+
+#pos_relative{
+    position: relative;
+    top:20px;
+    left:30px;
+}

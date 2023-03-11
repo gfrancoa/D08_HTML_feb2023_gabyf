@@ -1,0 +1,29 @@
+div {
+    border: 2px solid black;
+    font-size: 24px;
+}
+
+div#container {
+    padding: 10px;
+    position: relative;
+    top: 100px;
+    height: 200px;
+    width: 80%;
+    margin: auto;
+}
+
+#pos_static {
+    background-color: blue;
+}
+
+#pos_relative {
+    background-color: red;
+}
+
+#pos_absolute {
+    background-color: yellow;
+}
+
+#pos_fixed {
+    background-color: green;
+}

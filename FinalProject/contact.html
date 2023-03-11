@@ -37,21 +37,61 @@
       <form>
         
         <div>
-            <label for="name" >Full name</label>
-        <input type="text" name="" id="name" required>
+            <label for="fname" >First name</label>
+        <input type="text" id="fname" required>
+        </div>
+
+        <div>
+            <label for="name" >Last name</label>
+        <input type="text"  id="name" required>
         </div>
 
         <div>
             <label for="phone" >Phone number</label>
-        <input type="text" name="" id="phone" required>
+        <input type="text" id="phone" required>
         </div>
+
+        <div>
+            <label for="country">Country</label>
+           
+              <select id="country" required>
+                <option hidden disabled selected value>
+                  -- Select one --
+                </option>
+                <option value="1">Canada</option>
+                <option value="2">USA</option>
+              </select>
+            
+          </div>
+          <p>Preferred language</p>
+          <div>
+            
+            <label >
+              <input class="lang-option" type="radio" name="lang" value="en" checked >
+              English
+            </label>
+          </div>
+          <div>
+            <label class="lang-option">
+              <input class="lang-option" type="radio" name="lang" value="fr" >
+              French
+            </label>
+          </div>
+         
 
        <div>
         <label for="message" >Message</label>
-        <textarea id="name" required rows="10"></textarea>
+        <textarea id="message" required rows="10"></textarea>
        </div>
 
         <input type="submit" value="SEND MESSAGE">
+
+        <div class="contact-data-container">
+            <p>3133 Rue Crescent 🛹 Montreal, QC 🛹 H2L4D3 🛹</p>
+            <a href="tel:+15146589874">📞 +1 (514) 658-9874</a>
+            <br>
+            <a href="mailto:hello@infiniteskate.com">📧hello@infiniteskate.com</a>
+          </div>
       </form>
     
 
@@ -64,6 +104,19 @@
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
       </div>
+
+      <h2 class="contact-title">FOLLOW US ON SOCIAL MEDIA</h2>
+
+      <div class="social-container">
+        <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+      </div>
+
+      
     </div>
    
     <iframe src="components/footer.html"  style="border: 0"></iframe>
