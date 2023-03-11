@@ -1,0 +1,24 @@
+#container{
+    position: relative;
+}
+
+#green_square{
+    position: absolute;
+    top:45px;
+    left:45px;
+    z-index: 3;
+}
+
+#red_square{
+    position: absolute;
+    top:85px;
+    left:85px;
+    z-index: 2;
+}
+
+#blue_square{
+    position: absolute;
+    top:125px;
+    left:125px;
+    z-index: 1;
+}

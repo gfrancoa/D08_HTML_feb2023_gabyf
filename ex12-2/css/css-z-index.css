@@ -1,0 +1,13 @@
+#container > div {
+    width: 100px;
+    height: 100px;
+}
+#green_square {
+    background-color: green;
+}
+#red_square {
+    background-color: red;
+}
+#blue_square {
+    background-color: blue;
+}
