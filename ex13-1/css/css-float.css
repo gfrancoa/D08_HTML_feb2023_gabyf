@@ -1,0 +1,51 @@
+header{
+    border:2px solid green;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+nav{
+    border:2px solid yellow;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.left-panel{
+    height:400px;
+    background-color: grey;
+    float: left;
+    width: 33%;
+    margin:5px;
+}
+
+article{
+    border:2px solid red;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    width: 33%;
+}
+
+section{
+    border:2px solid blue;
+    padding: 5px;
+    margin-bottom: 5px;
+    
+}
+
+aside{
+    border:2px solid black;
+    padding: 5px;
+    margin-top: 5px;
+    float:right;
+    width: 30%;
+}
+
+footer{
+    border:2px solid green;
+    padding: 5px;
+    margin-bottom: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 97%;
+}
